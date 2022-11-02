@@ -1,0 +1,122 @@
+@font-face {
+    font-family: deathstar;
+    src: url(Death\ Star.otf);
+}
+body{
+    background: linear-gradient( rgb(57, 148, 214), lightskyblue, lightblue);
+    text-shadow: 0 0 3px black;
+}
+.intro{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: deathstar, sans-serif;
+    color: #edf2f4;
+}
+#profile{
+    width: 250px;
+    border-radius: 50%;
+    border: 8px #EFB0C9 solid;
+} 
+#age{
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+#date{
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+
+.gift-section{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: deathstar, sans-serif;
+    color: #edf2f4;
+}
+#gift-title1    {
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+.gift-hint{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.gift-image{
+    background-image: url(image/cowboy.jpg);
+    width: 450px;
+    height: 600px;
+    background-size: cover;
+    border-radius: 20px;
+    border: 10px #edf2f4 solid;
+    margin-bottom: 30px;
+}
+#gift1:hover{
+    background-image: url(image/howdy.gif);
+    background-size: 450px 600px;
+    background-position: center;
+}
+
+
+
+.gift-title-all{
+    margin-top:50px;
+    margin-bottom: 20px;
+}
+#gift2:hover{
+    background-image: url(image/horny.gif);
+    background-size: 450px 600px;
+    background-position: center;
+}
+
+
+
+#gift3:hover{
+    background-image: url(image/genius.gif);
+    background-size: 450px 600px;
+    background-position: center;
+}
+
+
+#gift4:hover{
+    background-image: url(image/badass.gif);
+    background-size: 450px 600px;
+    background-position: center;
+}
+
+#gift5{
+    height: 200px;
+    background-size: 450px 200px;
+}
+#gift5:hover{
+    background-image: url(image/cheers.gif);
+    background-size: 450px 200px;
+    background-position: center;
+}
+
+#footer{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: deathstar, sans-serif;
+    font-style: italic;
+    color: #edf2f4;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+a{
+    color:white;
+}
